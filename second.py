@@ -20,6 +20,7 @@ while i < 10:
     if int(number) == 5: fives += 1
     i += 1
 print('Вы ввели ', fives, 'цифр 5')
+
 '''
 Задача 3
 Найти сумму ряда чисел от 1 до 100. Полученный результат вывести на экран.
@@ -91,7 +92,7 @@ maxi = 0
 number = str(number)
 for i in range(0, len(number)):
     if int(number[i]) > maxi : maxi = int(number[i])
-print(maxi)
+print('Максимальная цифра в числе ', number, ' - ', maxi)
 
 '''
 Задача 10
